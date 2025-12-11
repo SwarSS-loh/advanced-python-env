@@ -1,0 +1,25 @@
+1.
+n = str(input("Please write ur last and first name: "))
+a = int(input("Please write your age: "))
+p = input("Please write your phone number: ")
+print("You are " + n)
+print("You are " + str(a) + " year old")
+print("Your phone number is " + p)
+
+2.
+s = input().split()
+a = int(s[0])
+b = int(s[1])
+c = int(s[2])
+print(max(a,b,c) - min(a,b,c)) 
+
+3.
+a=float(input())
+c = int(a) /100 
+b = a % int(a)
+f = b * 100
+print(c)
+print(int(f))
+print(int(f) + c)
+
+4.
