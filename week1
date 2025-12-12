@@ -23,3 +23,60 @@ print(int(f))
 print(int(f) + c)
 
 4.
+a = int(input())
+sum = 0
+for i in range (a + 1):
+    sum += i
+print(sum)
+
+5.
+a =int(input())
+m = a*5
+s = m+8
+b = s*2
+print(b) 
+
+6.
+o = input("Choose your operation between +, -, *, /: ")
+n1 = int(input("num1: "))
+n2 = int(input("num2: "))
+if o == "+":
+    print(n1 + n2)
+elif o == "-":
+    print(n1 - n2)
+elif o == "*":
+    print(n1 * n2)
+elif o == "/":
+    print(n1 / n2)
+
+7.
+o = input("Choose your operation between +, -, *, /: ")
+n1 = int(input("num1: "))
+n2 = int(input("num2: "))
+if o == "+":
+    print(n1 + n2)
+elif o == "-":
+    print(n1 - n2)
+elif o == "*":
+    print(n1 * n2)
+elif o == "/":
+    if n2 == 0:
+        print("You cannot divide by 0")
+    else:
+        print(n1 / n2)
+
+8.
+a = str(input())
+list = []
+b = int(input())
+for i in a:
+    print(i * b)
+
+9.
+a = input().strip()
+b = int(a[0]) + int(a[1]) + int(a[2])
+c = int(a[3]) + int(a[4]) + int(a[5])
+if b == c:
+    print("YES")
+else:
+    print("NO")
