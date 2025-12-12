@@ -1,0 +1,6 @@
+n = str(input("Please write ur last and first name: "))
+a = int(input("Please write your age: "))
+p = input("Please write your phone number: ")
+print("You are " + n)
+print("You are " + str(a) + " year old")
+print("Your phone number is " + p)
