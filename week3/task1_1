@@ -1,0 +1,25 @@
+import math
+def cir(r):
+    return math.pi * r**2
+def rec(a, b):
+    return a * b
+def tri(a, h):
+    return a * h / 2
+def main():
+    print("1 - circle, 2 - rectangle, 3 - triangle")
+    a = int(input("Shape: "))
+    if a == 1:
+        r = float(input("Radius: "))
+        print("Area:", cir(r))
+    elif a == 2:
+        a = float(input("Side a: "))
+        b = float(input("Side b: "))
+        print("Area:", rec(a, b))
+    elif a == 3:
+        a = float(input("Base: "))
+        h = float(input("Height: "))
+        print("Area:", tri(a, h))
+    else:
+        print("Wrong choice")
+if __name__ == "__main__":
+    main()
