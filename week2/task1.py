@@ -1,10 +1,8 @@
-def count(seq):
-    a1 = '>>-->'
-    a2 = '<--<<'
-    count = 0 
-    count += seq.count(a1)
-    count += seq.count(a2)
-    return count
-a = input()
-b = count(a)
-print(b)
+s = input().strip()
+a = ">>-->"
+b = "<--<<"
+count = 0
+for i in range(len(s) - 4):
+    if s[i:i+5] == a or s[i:i+5] == b:
+        count += 1
+print(count)

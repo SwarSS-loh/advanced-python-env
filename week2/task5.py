@@ -1,5 +1,5 @@
 al = set("ABCEHKMOPTXY")
-def vbhrekvnrejk(s: str) -> bool:
+def vbhrekvnrejk(s):
     if len(s) != 6:
         return False
     if s[0] not in al:
